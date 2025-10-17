@@ -10,6 +10,7 @@ import { SiMongodb, SiMysql, SiPostgresql } from 'react-icons/si';
 import { FaGitAlt } from 'react-icons/fa';
 import { RiTailwindCssFill, RiNextjsFill } from 'react-icons/ri';
 import Skill from './Skill';
+import Title from './Title';
 
 function Skills() {
   const frontendSkills = [
@@ -31,9 +32,7 @@ function Skills() {
   ];
   return (
     <div className='w-[90%] md:w-[80%] m-auto'>
-      <p className='text-center text-primary m-auto underline underline-offset-4 font-extrabold text-2xl mb-6'>
-        My Skills
-      </p>
+      <Title text='My Skills' />
       <div className='text-center mb-4'>
         <p className='text-dark font-bold'>Frontend Development</p>
         <div className='mb-4'>

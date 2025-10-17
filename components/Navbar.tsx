@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <header className='bg-background border-primary/10 rounded-lg flex justify-center my-20'>
-      <div className='p-5 rounded-lg border border-gray-300 hover:shadow-sm md:container fixed top-5 md:py-6 md:w-full w-[95%] bg-background'>
+      <div className='p-5 rounded-lg border border-gray-300 hover:shadow-sm md:container fixed top-5 md:py-6 md:w-full w-[95%] bg-background z-10'>
         <div className='flex items-center justify-between max-w-6xl mx-auto'>
           {/* Logo */}
           <Link href='/' className='text-xl font-bold text-primary'>
@@ -27,7 +27,7 @@ function Navbar() {
             <NavItem href='/'>Home</NavItem>
             <NavItem href='/about'>About Me</NavItem>
             <NavItem href='/projects'>Projects</NavItem>
-            <NavItem href='/contact'>Contact</NavItem>
+            <NavItem href='/contact'>Contact Me</NavItem>
             <NavItem href='https://wa.me/2347080225103'>
               <Button type='secondary'>Hire Me</Button>
             </NavItem>
@@ -46,7 +46,7 @@ function Navbar() {
         {/* Mobile Navigation (Slide-in from Right) */}
         <div
           className={`fixed top-0 right-0 h-full w-64 bg-background border-l border-primary/20 transform transition-transform duration-300 ease-in-out md:hidden ${
-            isOpen ? 'translate-x-0 z-10' : 'translate-x-full'
+            isOpen ? 'translate-x-0 z-20' : 'translate-x-full'
           }`}
         >
           <div className='flex justify-end p-4'>
@@ -69,7 +69,7 @@ function Navbar() {
               About Me
             </NavItem>
             <NavItem href='/contact' onClick={toggleMenu}>
-              Contact
+              Contact Me
             </NavItem>
             <NavItem onClick={toggleMenu} href='https://wa.me/2347080225103'>
               <Button type='secondary'>Hire Me</Button>
