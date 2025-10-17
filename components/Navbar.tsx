@@ -24,11 +24,11 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className='hidden md:flex space-x-10 items-center'>
-            <NavItem href='/'>Home</NavItem>
-            <NavItem href='/about'>About Me</NavItem>
-            <NavItem href='/projects'>Projects</NavItem>
-            <NavItem href='/contact'>Contact Me</NavItem>
-            <NavItem href='https://wa.me/2347080225103'>
+            <NavItem href='#home'>Home</NavItem>
+            <NavItem href='#about-me'>About Me</NavItem>
+            <NavItem href='#projects'>Projects</NavItem>
+            <NavItem href='#contact-me'>Contact Me</NavItem>
+            <NavItem href='#contact-me'>
               <Button type='secondary'>Hire Me</Button>
             </NavItem>
           </nav>
@@ -59,19 +59,19 @@ function Navbar() {
             </button>
           </div>
           <nav className='flex flex-col space-y-4 p-4'>
-            <NavItem href='/' onClick={toggleMenu}>
+            <NavItem href='#home' onClick={toggleMenu}>
               Home
             </NavItem>
-            <NavItem href='/projects' onClick={toggleMenu}>
-              Projects
-            </NavItem>
-            <NavItem href='/about' onClick={toggleMenu}>
+            <NavItem href='#about-me' onClick={toggleMenu}>
               About Me
             </NavItem>
-            <NavItem href='/contact' onClick={toggleMenu}>
+            <NavItem href='#projects' onClick={toggleMenu}>
+              Projects
+            </NavItem>
+            <NavItem href='#contact-me' onClick={toggleMenu}>
               Contact Me
             </NavItem>
-            <NavItem onClick={toggleMenu} href='https://wa.me/2347080225103'>
+            <NavItem onClick={toggleMenu} href='#contact-me'>
               <Button type='secondary'>Hire Me</Button>
             </NavItem>
           </nav>

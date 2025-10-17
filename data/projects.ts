@@ -17,13 +17,13 @@ export const projects: Project[] = [
     gitUrl: 'https://github.com/your-username/portfolio',
     siteUrl: 'https://your-portfolio.vercel.app',
   },
-  {
-    image: '/images/project2.jpg',
-    name: 'Task Manager App',
-    description:
-      'A full-stack task management application with user authentication, allowing users to create, update, and track tasks efficiently.',
-    stack: ['Node.js', 'Express', 'MongoDB', 'React'],
-    gitUrl: 'https://github.com/your-username/task-manager',
-    siteUrl: 'https://task-manager-demo.vercel.app',
-  },
+  // {
+  //   image: '/images/project2.jpg',
+  //   name: 'Task Manager App',
+  //   description:
+  //     'A full-stack task management application with user authentication, allowing users to create, update, and track tasks efficiently.',
+  //   stack: ['Node.js', 'Express', 'MongoDB', 'React'],
+  //   gitUrl: 'https://github.com/your-username/task-manager',
+  //   siteUrl: 'https://task-manager-demo.vercel.app',
+  // },
 ];
