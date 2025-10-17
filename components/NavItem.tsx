@@ -15,7 +15,6 @@ function NavItem({ href, children, onClick }: NavItemProps) {
       className='text-dark font-semibold hover:font-black hover:text-primary'
     >
       {children}
-      hello
     </Link>
   );
 }
