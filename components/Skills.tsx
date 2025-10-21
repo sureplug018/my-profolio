@@ -6,9 +6,10 @@ import {
   FaNodeJs,
 } from 'react-icons/fa6';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { SiMongodb, SiMysql, SiPostgresql } from 'react-icons/si';
+import { SiMongodb, SiPostgresql } from 'react-icons/si';
 import { FaGitAlt } from 'react-icons/fa';
 import { RiTailwindCssFill, RiNextjsFill } from 'react-icons/ri';
+import { GrMysql } from 'react-icons/gr';
 import Skill from './Skill';
 import Title from './Title';
 
@@ -26,7 +27,7 @@ function Skills() {
   const backendSkills = [
     { icon: FaNodeJs, name: 'NodeJs', color: 'text-green-800' },
     { icon: SiMongodb, name: 'MongoDB', color: 'text-green-900' },
-    { icon: SiMysql, name: 'MySQL', color: 'text-cyan-950' },
+    { icon: GrMysql, name: 'MySQL', color: 'text-cyan-950' },
     { icon: SiPostgresql, name: 'Postgresql', color: 'text-cyan-800' },
     { icon: FaGitAlt, name: 'Git', color: 'text-orange-600' },
   ];
